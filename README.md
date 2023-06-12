@@ -30,21 +30,27 @@ La API permite realizar consultas CRUD(Cread, Read, Update, Delete) de las clase
  * GET      localhost:3500/productos/{codigo_producto}  Traer un producto en particular
  * DELETE   localhost:3500/productos/eliminar/{codigo_producto}
  * PUT      localhost:3500/productos/editar
+ - Productos cuya cantidad_disponible sea menor a 5
+ * GET      localhost:3500/productos/falta_stock
+ - Productos de una determinada venta
+ * GET      localhost:3500/productos/{codigo_venta}
 
 
  ### EndPoints CLIENTES
  * POST     localhost:3500/clientes/crear
  * GET      localhost:3500/clientes/traer
- * GET      localhost:3500/clientes/{codigo_producto}  Traer un cliente en particular
- * DELETE   localhost:3500/clientes/eliminar/{codigo_producto}
+ * GET      localhost:3500/clientes/{id_cliente}  Traer un cliente en particular
+ * DELETE   localhost:3500/clientes/eliminar/{id_cliente}
  * PUT      localhost:3500/clientes/editar
 
  ### EndPoints VENTAS
  * POST     localhost:3500/ventas/crear
  * GET      localhost:3500/ventas/traer
- * GET      localhost:3500/ventas/{codigo_producto}  Traer una venta en particular
- * DELETE   localhost:3500/ventas/eliminar/{codigo_producto}
+ * GET      localhost:3500/ventas/{codigo_venta}    Traer una venta en particular
+ * DELETE   localhost:3500/ventas/eliminar/{codigo_venta}
  * PUT      localhost:3500/ventas/editar
+
+
 
  ### Instalación
 
