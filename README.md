@@ -30,9 +30,9 @@ La API permite realizar consultas CRUD(Cread, Read, Update, Delete) de las clase
  * GET      localhost:3500/productos/{codigo_producto}  Traer un producto en particular
  * DELETE   localhost:3500/productos/eliminar/{codigo_producto}
  * PUT      localhost:3500/productos/editar
- - Productos cuya cantidad_disponible sea menor a 5
+ ### Productos cuya cantidad_disponible sea menor a 5
  * GET      localhost:3500/productos/falta_stock
- - Productos de una determinada venta
+ ### Productos de una determinada venta
  * GET      localhost:3500/productos/{codigo_venta}
 
 
