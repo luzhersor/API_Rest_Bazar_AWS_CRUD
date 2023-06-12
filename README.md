@@ -33,19 +33,22 @@ La API permite realizar consultas CRUD(Cread, Read, Update, Delete) de las clase
 
 
  ### EndPoints CLIENTES
- * POST     localhost:3500/temas/crear
- * PUT      localhost:3500/temas/editar
+ * POST     localhost:3500/clientes/crear
+ * GET      localhost:3500/clientes/traer
+ * GET      localhost:3500/clientes/{codigo_producto}  Traer un cliente en particular
+ * DELETE   localhost:3500/clientes/eliminar/{codigo_producto}
+ * PUT      localhost:3500/clientes/editar
 
  ### EndPoints VENTAS
- * GET      localhost:3500/cursos/traer
- * POST     localhost:3500/cursos/crear
- * PUT      localhost:3500/cursos/editar
- * GET      localhost:3500/cursos/temas/{id} DTO
- * GET      localhost:3500/cursos/java
+ * POST     localhost:3500/ventas/crear
+ * GET      localhost:3500/ventas/traer
+ * GET      localhost:3500/ventas/{codigo_producto}  Traer una venta en particular
+ * DELETE   localhost:3500/ventas/eliminar/{codigo_producto}
+ * PUT      localhost:3500/ventas/editar
 
  ### Instalación
 
 ##### Clona o descarga el repositorio.
 ##### Importa el proyecto a tu IDE (NetBeans, Eclipse, Intellij)
-##### Ejecuta el archivo CursosApplication.java desde tu IDE.
-##### Abre Postman e importa la colección para realizar las pruebas: [Postman Collection](https://github.com/luzhersor/Cursos_Temas_CRUD/blob/main/Estudiante_Programaci%C3%B3n.postman_collection.json)
+##### Ejecuta el archivo BazarApplication.java desde tu IDE.
+##### Abre Postman e importa la colección para realizar las pruebas: [Postman Collection](https://github.com/luzhersor/Bazar_CRUD/blob/main/bazar.postman_collection.json)
