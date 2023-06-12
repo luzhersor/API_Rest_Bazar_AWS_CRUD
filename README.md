@@ -1,8 +1,7 @@
 # Bazar
-API Rest con SpringBoot que conecta a una base de datos H2. 
+### API Rest con SpringBoot que conecta a una base de datos H2. 
 La API permite realizar consultas CRUD(Cread, Read, Update, Delete) de las clases "VENTA", 
-"PRODUCTO" y "CLIENTE", así como otras operaciónes personalizadas.
-Un curso puede contener varios temas (relación 1 a muchos @OneToMany)
+"PRODUCTO" y "CLIENTE", así como otras operaciónes personalizadas que se enlistan a continuación.
 
  ### 🖥️ Tecnologías Utilizadas:
 * Java 17
@@ -14,24 +13,35 @@ Un curso puede contener varios temas (relación 1 a muchos @OneToMany)
 * MySQL Driver
 * Postman
 * IDE NetBeans
+
+ ### Consideraciones importantes 
+ * Cada venta posee una lista de productos (@ManyToMany) y uno y solo un cliente asociado (@OneToOne).
  
  ### Este programa permite realizar las siguientes consultas 
- * CRUD de las mascotas (Alta, Modificación, Lectura)
- * Listado de cursos que contengan la palabra "java"
- * Listado de temas de un curso (Patron DTO)
- * Crear temas y asociar a un curso. 
- * Modificar los datos de un tema.
+ * CRUD de PRODUCTO
+ * CRUD de CLIENTE
+ * CRUD de VENTA
+ * Listado de PRODUCTOS asociados a una determinada VENTA.
+ * Listado de PRODUCTOS cuya cantidad_disponible sea menor a 5.
 
- ### EndPoints cursos
+ ### EndPoints PRODUCTOS
+ * POST     localhost:3500/productos/crear
+ * GET      localhost:3500/productos/traer
+ * GET      localhost:3500/productos/{codigo_producto}  Traer un producto en particular
+ * DELETE   localhost:3500/productos/eliminar/{codigo_producto}
+ * PUT      localhost:3500/productos/editar
+
+
+ ### EndPoints CLIENTES
+ * POST     localhost:3500/temas/crear
+ * PUT      localhost:3500/temas/editar
+
+ ### EndPoints VENTAS
  * GET      localhost:3500/cursos/traer
  * POST     localhost:3500/cursos/crear
  * PUT      localhost:3500/cursos/editar
  * GET      localhost:3500/cursos/temas/{id} DTO
  * GET      localhost:3500/cursos/java
-
- ### EndPoints temas
- * POST     localhost:3500/temas/crear
- * PUT      localhost:3500/temas/editar
 
  ### Instalación
 
