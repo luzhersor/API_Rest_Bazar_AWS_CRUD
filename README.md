@@ -1,8 +1,10 @@
+
+
 # Bazar API Rest AWS
-### API Rest con SpringBoot que conecta a una base de datos MySQL desplegada en AWS EB. 
+### API Rest con SpringBoot que conecta a una base de datos MySQL desplegada en AWS Elastic Beanstalk (BE). 
 #### API REST para la gestión de las ventas, clientes y productos de un bazar.
-La API permite realizar consultas CRUD(Cread, Read, Update, Delete) de las clases "VENTA", 
-"PRODUCTO" y "CLIENTE", así como otras operaciónes personalizadas que se enlistan a continuación.
+_La API permite realizar consultas CRUD(Cread, Read, Update, Delete) de las clases "VENTA", 
+"PRODUCTO" y "CLIENTE", así como otras operaciónes personalizadas que se enlistan a continuación._
 
  ### 🖥️ Tecnologías Utilizadas:
 * Java 17
