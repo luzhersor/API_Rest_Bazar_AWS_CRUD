@@ -1,7 +1,8 @@
 # Store API Rest AWS
 ### API Rest with SpringBoot and MySQL as database, deployed in AWS Elastic Beanstalk(BE)
 #### API Rest for the management of sales, customers and products of a Clothes Store.
-_The API allows CRUD requests (Create, Read, Update, Delete) as well as other custome request listed below_
+_The API allows CRUD requests (Create, Read, Update, Delete) of the services "Venta", "Producto" and "Cliente", 
+as well as other custome request listed below._
 
 
 
