@@ -22,17 +22,17 @@ Every sale (venta) has a list of products (@ManyToMany) and only one client rela
 ###  📦 AWS Elastic Beanstalk (EB) -Remote Server-
 The endpoints for requests and responses are the same as on the local server, you only have to change the initial part of the link:
 
- * GET   [http//:shop-bazar-env.eba-trg26fj3.us-east-2.elasticbeanstalk.com/productos/traer](http//:shop-bazar-env.eba-trg26fj3.us-east-2.elasticbeanstalk.com/productos/traer)
- * GET   shop-bazar-env.eba-trg26fj3.us-east-2.elasticbeanstalk.com/clientes/traer
- * GET   shop-bazar-env.eba-trg26fj3.us-east-2.elasticbeanstalk.com/ventas/traer
+ * GET   http//:shop-bazar-env.eba-trg26fj3.us-east-2.elasticbeanstalk.com/productos/traer
+ * GET   http//:shop-bazar-env.eba-trg26fj3.us-east-2.elasticbeanstalk.com/clientes/traer
+ * GET   http//:shop-bazar-env.eba-trg26fj3.us-east-2.elasticbeanstalk.com/ventas/traer
 
 Consider that in the browser you can only run GET type requests, if you want to make another type of request it is necessary to use Postman (POST, DELETE, PUT).
 
 #### Products with an amount of less than 5 pieces 📦
- * GET    shop-bazar-env.eba-trg26fj3.us-east-2.elasticbeanstalk.com/productos/falta_stock 
+ * GET    http//:shop-bazar-env.eba-trg26fj3.us-east-2.elasticbeanstalk.com/productos/falta_stock 
 
 #### List of the products of a certain sale  📦
- * GET     shop-bazar-env.eba-trg26fj3.us-east-2.elasticbeanstalk.com/ventas/productos/7
+ * GET    http//:shop-bazar-env.eba-trg26fj3.us-east-2.elasticbeanstalk.com/ventas/productos/7
  
 ###  ⚙️ Local Server 
 ### EndPoints PRODUCTOS
