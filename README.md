@@ -22,7 +22,7 @@ Every sale (venta) has a list of products (@ManyToMany) and only one client rela
 ###  📦 AWS Elastic Beanstalk (EB) -Remote Server-
 The endpoints for requests and responses are the same as on the local server, you only have to change the initial part of the link:
 
- * GET   (shop-bazar-env.eba-trg26fj3.us-east-2.elasticbeanstalk.com/productos/traer)
+ * GET   [shop-bazar-env.eba-trg26fj3.us-east-2.elasticbeanstalk.com/productos/traer](shop-bazar-env.eba-trg26fj3.us-east-2.elasticbeanstalk.com/productos/traer)
  * GET   shop-bazar-env.eba-trg26fj3.us-east-2.elasticbeanstalk.com/clientes/traer
  * GET   shop-bazar-env.eba-trg26fj3.us-east-2.elasticbeanstalk.com/ventas/traer
 
