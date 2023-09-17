@@ -1,5 +1,5 @@
 # Bazar
-### API Rest con SpringBoot que conecta a una base de datos H2. 
+### API Rest con SpringBoot que conecta a una base de datos MySQL desplegada en AWS EB. 
 #### API REST para la gestión de las ventas, clientes y productos de un bazar.
 La API permite realizar consultas CRUD(Cread, Read, Update, Delete) de las clases "VENTA", 
 "PRODUCTO" y "CLIENTE", así como otras operaciónes personalizadas que se enlistan a continuación.
