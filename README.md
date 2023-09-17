@@ -58,8 +58,9 @@ Consider that in the browser you can only run GET type requests, if you want to 
  * DELETE   localhost:3500/ventas/eliminar/{codigo_venta}
  * PUT      localhost:3500/ventas/editar
 
-
-### API Rest con SpringBoot que conecta a una base de datos MySQL desplegada en AWS Elastic Beanstalk (EB). 
+```
+### 🛠️ API Rest con SpringBoot que conecta a una base de datos MySQL desplegada en AWS Elastic Beanstalk (EB).
+```
 #### API REST para la gestión de las ventas, clientes y productos de un bazar.
 _La API permite realizar consultas CRUD(Cread, Read, Update, Delete) de las clases "VENTA", 
 "PRODUCTO" y "CLIENTE", así como otras operaciónes personalizadas que se enlistan a continuación._
